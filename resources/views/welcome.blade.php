@@ -8,7 +8,7 @@
 	<meta name="description" content="GERABAH (Gerakan Ramadhan Berkah) - Mari Sedekah di Bulan Berkah">
 	<meta name="keywords" content="Charity Website, Donasi, Ramadhan, Pahala">
 	<meta name="author" content="Dimas Hermawan">
-	<!--<meta name="google-site-verification" content="c78lWHuGfYZMfDSPgoBM71t0K1FJh1yXqkHHEqV-1IY" />-->
+	<meta name="google-site-verification" content="UPlR3_gxIn4Og6OyULqUKeCUP0BZ-neZNvdUcLIIpj8" />
 	<meta name="copyright" content="iamhermawan.Com [dimas9c3@gmail.com]">
 	<meta name="robots" content="index, archive, follow, noodp">
 	<meta name="googlebot" content="index,archive,follow,noodp">
