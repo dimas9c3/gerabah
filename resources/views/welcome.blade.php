@@ -21,7 +21,7 @@
 	<meta property="og:url" content="http://gerabah.iamhermawan.com/">
 	<meta property="og:image" content="{{ asset('frontend/img/header-bg.jpg') }}"/>
 	<link rel="canonical" href="http://gerabah.iamhermawan.com/">
-	<meta name="theme-color" content="#fed136" />
+	<meta name="theme-color" content="#1abb9c" />
 	<meta name="geo.country" content="id"/>
 	<meta name="geo.placename" content="Indonesia"/>
 

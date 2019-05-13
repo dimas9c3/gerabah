@@ -28,7 +28,7 @@ function initComponent() {
 		},
 		fixedHeader     : true,
 		paging          : true,
-		pageLength      : 6,
+		pageLength      : 5,
 		lengthChange    : false,
 		searching       : true,
 		search          : 
