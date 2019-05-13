@@ -1,10 +1,12 @@
 /node_modules
 /public/hot
+/public/.htaccess
 /public/storage
 /storage/*.key
 /vendor
 /.idea
 /.vscode
+/.htaccess
 /nbproject
 /.vagrant
 Homestead.json
