@@ -8,7 +8,6 @@
 	<meta name="description" content="GERABAH (Gerakan Ramadhan Berkah) - Mari Sedekah di Bulan Berkah">
 	<meta name="keywords" content="Charity Website, Donasi, Ramadhan, Pahala">
 	<meta name="author" content="Dimas Hermawan">
-	<meta name="google-site-verification" content="UPlR3_gxIn4Og6OyULqUKeCUP0BZ-neZNvdUcLIIpj8" />
 	<meta name="copyright" content="iamhermawan.Com [dimas9c3@gmail.com]">
 	<meta name="robots" content="index, archive, follow, noodp">
 	<meta name="googlebot" content="index,archive,follow,noodp">
@@ -52,12 +51,16 @@
 		var token		= '{{ csrf_token() }}';
 	</script>
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140092921-1"></script>
 	<script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-129919162-1');
-    </script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-140092921-1');
+	</script>
+
 
 </head>
 
@@ -475,7 +478,7 @@
 		<!-- Datatables -->
 		<script src="{{ asset('plugins/datatables/js/jquery.dataTables.min.js') }}"></script>
 		<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
-	
+		
 		<!-- Init Component -->
 		<script>
 			init();
