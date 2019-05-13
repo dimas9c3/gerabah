@@ -52,6 +52,13 @@
 		var token		= '{{ csrf_token() }}';
 	</script>
 
+	<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-129919162-1');
+    </script>
+
 </head>
 
 <body id="page-top">
