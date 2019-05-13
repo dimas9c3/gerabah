@@ -116,7 +116,7 @@ class DonasiController extends Controller
 		}catch (\Exception $e) {
 			return redirect()->back()
 			->with('response', 'swalError()')
-			->with('error_message', env('TELEGRAM_CHANNEL_ID'));
+			->with('error_message', $e->getMessage());
 		}
     }
 
