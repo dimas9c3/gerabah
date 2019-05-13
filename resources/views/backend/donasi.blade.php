@@ -103,7 +103,7 @@
 					</div>
 					<div class="form-group">
 						<label>Tanggal Donasi</label>
-						<input type="text" name="tanggal" value="{{ date('Y-m-d') }}" class="form-control flatpickr" required>
+						<input type="text" name="tanggal" class="form-control flatpickr" required>
 					</div>
 
 				</div>

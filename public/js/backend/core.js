@@ -4,6 +4,7 @@ var flatpickr = $('.flatpickr').flatpickr({
 	altInput: true,
 	altFormat: "d M, Y",
 	dateFormat: "Y-m-d",
+	defaultDate: new Date(),
 });
 
 function swalSuccess() {

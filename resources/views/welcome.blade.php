@@ -378,7 +378,7 @@
 								</a>
 							</li>
 							<li class="list-inline-item">
-								<a href="whatsapp://send?text=https://iamhermawan.com">
+								<a href="whatsapp://send?text=http://gerabah.iamhermawan.com">
 									<i class="fab fa-whatsapp"></i>
 								</a>
 							</li>
