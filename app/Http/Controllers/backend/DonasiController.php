@@ -99,7 +99,7 @@ class DonasiController extends Controller
 				. "Total Donasi Terkumpul : Rp. ".number_format($Qtot).""
 				. "\n"
 				. "\n"
-				. "Cek Perkembangan GERABAH Melalui Website Resmi Dengan Mengkilk Tautan Dibawah :"
+				. "Cek Perkembangan GERABAH Melalui Website Resmi Dengan Mengklik Tautan Dibawah :"
 				. "\n"
 				. "\n"
 				. "<a href='https://gerabah.iamhermawan.com'>LINK</a>";

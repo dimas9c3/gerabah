@@ -53,6 +53,7 @@
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140092921-1"></script>
+
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
@@ -60,7 +61,6 @@
 
 		gtag('config', 'UA-140092921-1');
 	</script>
-
 
 </head>
 
@@ -415,7 +415,7 @@
 								<div class="modal-body">
 									<h4 class="text-uppercase">Latar Belakang GERABAH</h4>
 									<p class="text-left">Program berbagi ini sudah terselenggara sejak tahun 2014, terhitung 6 tahun sampai saat ini. Sedikit bercerita tentang awal mula adanya program Gerabah ini yaitu adanya program Jumat Berbagi. Jumat Berbagi memiliki bentuk kegiatan berbagi nasi bungkus pada setiap hari Jumat sepulang jam sekolah selepas sholat Jumat. Kegiatan ini awalnya tercetus dari salah satu teman kelas kami, Nadia. Kegiatan yang diselenggarakan setiap hari Jumat ini awalnya hanya bisa dilaksanakan untuk lokasi di sekitar sekolah kami, SMA N 1 Kartasura saja dikarenakan keterbatasan dana yang kami kumpulkan hanya dari teman-teman satu kelas. </p>
-									<p class="text-left">Kemudian, saat bulan Ramadan di tahun 2015 muncul pemikiran dari teman-teman IPA 1 "kenapa kita nggak bikin acara rutin tiap bulan puasa aja". Nah mulailah dari pemikiran ini, kami mencoba membuat program Gerabah ini dengan membuka donasi kepada pihak eksternal IPA 1. Pada tahun pertama program Gerabah (2015), Alhamdulillah bisa membagikan takjil dan nasi kotak untuk berbuka saudara-saudara peekrja jalanan di sekitar Solo dan Sukoharjo. Pada tahun kedua Gerbah (2016) hingga sekarang, Alhamdulillah donasi yang terkumpul semakin meningkat. Dengan semakin banyaknya donasi yang terkumpul, maka dari itu Gerabah juga dapat menyelenggarakan kegiatan berbagi lainnya.</p>
+									<p class="text-left">Kemudian, saat bulan Ramadan di tahun 2015 muncul pemikiran dari teman-teman IPA 1 "kenapa kita nggak bikin acara rutin tiap bulan puasa aja". Nah mulailah dari pemikiran ini, kami mencoba membuat program Gerabah ini dengan membuka donasi kepada pihak eksternal IPA 1. Pada tahun pertama program Gerabah (2015), Alhamdulillah bisa membagikan takjil dan nasi kotak untuk berbuka saudara-saudara pekerja jalanan di sekitar Solo dan Sukoharjo. Pada tahun kedua Gerabah (2016) hingga sekarang, Alhamdulillah donasi yang terkumpul semakin meningkat. Dengan semakin banyaknya donasi yang terkumpul, maka dari itu Gerabah juga dapat menyelenggarakan kegiatan berbagi lainnya.</p>
 									<button class="btn btn-primary" data-dismiss="modal" type="button">
 										<i class="fas fa-times"></i>
 									Close</button>
@@ -446,7 +446,7 @@
 									<p class="text-left">2. Donasi pembangunan masjid</p>
 									<p class="text-left">3. Donasi Panti Asuhan</p>
 									<p class="text-left">
-									Sistem dari pembagian donasi Gerabah yaitu bisanya Gerabah membagikan ±200-300 kotak nasi untuk para pekerja jalanan kemudian kelebihn dari donasi yang terkumpul akan kami salurkan diantara 2 kegiatan opsional di atas, untuk pembangunan masjid atau panti asuhan. </p>
+									Sistem dari pembagian donasi Gerabah yaitu biasanya Gerabah membagikan ±200-300 kotak nasi untuk para pekerja jalanan kemudian kelebihan dari donasi yang terkumpul akan kami salurkan diantara 2 kegiatan opsional di atas, untuk pembangunan masjid atau panti asuhan. </p>
 									<button class="btn btn-primary" data-dismiss="modal" type="button">
 										<i class="fas fa-times"></i>
 									Close</button>

@@ -102,3 +102,10 @@ function initComponent() {
 		$('#modal-edit').modal('show');
 	})
 }
+
+function disableButtonForm(form) {
+
+	form.btnSubmit.disabled = true;
+	$('#btnSubmit').html("Please wait...");
+	return true;
+}

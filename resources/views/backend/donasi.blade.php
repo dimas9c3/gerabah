@@ -82,7 +82,7 @@
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
-			<form class="form-horizontal form-label-left" method="POST" action="{{ url('donasi/store') }}">
+			<form class="form-horizontal form-label-left" method="POST" action="{{ url('donasi/store') }}" onsubmit="return disableButtonForm(this);">
 				@csrf
 				<div class="modal-body">
 
@@ -109,7 +109,7 @@
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					<button type="submit" class="btn btn-primary">Save</button>
+					<button type="submit" name="btnSubmit" id="btnSubmit" class="btn btn-primary">Save</button>
 				</div>
 			</form>
 		</div>
