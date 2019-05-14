@@ -11,7 +11,7 @@ use Telegram;
 class DonasiController extends Controller
 {
     public function index() {
-    	$data['jsInclude'] = 'js/backend/donasi.js';
+    	$data['jsInclude'] = 'js/backend/donasi.js?version='.mt_rand(1, 100);
     	return view('backend.donasi')->with($data);
     }
 
