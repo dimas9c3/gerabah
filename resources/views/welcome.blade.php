@@ -153,7 +153,12 @@
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<h2 class="section-heading text-uppercase">Donasi</h2>
-					<h3 class="section-subheading text-muted">Berikut adalah update donasi yang telah masuk pada kami.</h3>
+					<h3 class="section-subheading text-muted mb-3">Berikut adalah update donasi yang telah masuk pada kami.</h3>
+					<div class="alert alert-warning mt-0" role="alert">
+						<h4>Info</h4>
+						<p>Kami membuka donasi sampai hari Jumat tanggal 31 Mei 2019.</p>
+						<p>Untuk hari pelaksanaan kegiatan InsyaAllah akan dilaksanakan pada hari Minggu tanggal 2 Juni 2019.</p>
+					</div>
 				</div>
 			</div>
 			<div class="row">
@@ -191,6 +196,7 @@
 					<h3 class="section-subheading text-muted">Jika anda ingin mendonasikan uang anda kepada kami, anda bisa mengikuti langkah-langkah dibawah ini.</h3>
 				</div>
 			</div>
+			
 			<div class="row">
 				<div class="col-lg-12">
 					<ul class="timeline">
