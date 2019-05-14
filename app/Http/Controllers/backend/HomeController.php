@@ -33,15 +33,16 @@ class HomeController extends Controller
         $data['donasiAdmin']        = $Qdonasi;
 
         $Qdonatur                   = donasi::select(['donatur'])
-        ->groupBy('donatur')
-        ->get();
+        ->count();
+        $data['donatur']            = $Qdonatur;
+        // ->groupBy('donatur')
+        // ->get();
 
-        $jml = 0;
-        foreach($Qdonatur as $donatur) {
-            $jml++;
-        }
-
-        $data['donatur']            = $jml;
+        // $jml = 0;
+        // foreach($Qdonatur as $donatur) {
+        //     $jml++;
+        // }
+        // $data['donatur']            = $jml;
 
         $Qchart                     = donasi::groupBy('tanggal')
         ->selectRaw('sum(nominal) as tot, tanggal')
