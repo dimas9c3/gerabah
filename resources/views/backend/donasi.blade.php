@@ -82,7 +82,7 @@
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
-			<form class="form-horizontal form-label-left" method="POST" action="{{ url('donasi/store') }}" onsubmit="return disableButtonForm(this);">
+			<form class="form-horizontal form-label-left" method="POST" action="{{ url('donasi/store') }}" onsubmit="return disableButtonForm();">
 				@csrf
 				<div class="modal-body">
 
@@ -99,7 +99,7 @@
 					</div>
 					<div class="form-group">
 						<label>Jumlah Nominal Donasi *</label>
-						<input type="number" name="jumlah" class="form-control" placeholder="Input Jumlah Donasi" required>
+						<input type="text" name="jumlah" class="form-control autonumeric-input" min="0" placeholder="Input Jumlah Donasi" required>
 					</div>
 					<div class="form-group">
 						<label>Tanggal Donasi</label>
@@ -109,7 +109,7 @@
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					<button type="submit" name="btnSubmit" id="btnSubmit" class="btn btn-primary">Save</button>
+					<button type="submit" name="btnSubmit" class="btn btn-primary btnSubmit">Save</button>
 				</div>
 			</form>
 		</div>
@@ -126,7 +126,7 @@
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
-			<form class="form-horizontal form-label-left" method="POST" action="{{ url('donasi/update') }}">
+			<form class="form-horizontal form-label-left" method="POST" action="{{ url('donasi/update') }}" onsubmit="return disableButtonForm();">
 				@csrf
 				<div class="modal-body">
 
@@ -144,7 +144,7 @@
 					</div>
 					<div class="form-group">
 						<label>Jumlah Nominal Donasi *</label>
-						<input type="number" name="jumlah" id="edit-jumlah" class="form-control" placeholder="Input Jumlah Donasi" required>
+						<input type="text" name="jumlah" id="edit-jumlah" class="form-control autonumeric-input" value="" required>
 					</div>
 					<div class="form-group">
 						<label>Tanggal Donasi</label>
@@ -154,7 +154,7 @@
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					<button type="submit" class="btn btn-primary">Save</button>
+					<button type="submit" class="btn btn-primary btnSubmit">Save</button>
 				</div>
 			</form>
 		</div>

@@ -3,6 +3,8 @@ function init() {
 }
 
 function initComponent() {
+	autonumeric();
+
 	var table_donasi =  $('#table-donasi').DataTable
 	({
 		ajax            : 
@@ -91,7 +93,8 @@ function initComponent() {
 		$('#edit-id').val(id);
 		$('#edit-nama').val(donatur);
 		$('#edit-jenis').val(jenis).trigger('change');
-		$('#edit-jumlah').val(nominal);
+		const element = AutoNumeric.getAutoNumericElement('#edit-jumlah')
+  		element.set(nominal);
 		let cal = $('#edit-tanggal').flatpickr({
 			altInput: true,
 			altFormat: "d M, Y",
@@ -101,11 +104,15 @@ function initComponent() {
 		cal.setDate(tanggal);
 		$('#modal-edit').modal('show');
 	})
+
+	function autonumeric() {
+		new AutoNumeric('.autonumeric-input', {currencySymbol : 'Rp.', decimalPlaces : '0', unformatOnSubmit : true});
+		new AutoNumeric('#edit-jumlah', {currencySymbol : 'Rp.', decimalPlaces : '0', unformatOnSubmit : true});
+	}
 }
 
-function disableButtonForm(form) {
-
-	form.btnSubmit.disabled = true;
-	$('#btnSubmit').html("Please wait...");
+function disableButtonForm() {
+	$('.btnSubmit').prop('disabled', true);
+	$('.btnSubmit').html("Please wait...");
 	return true;
 }

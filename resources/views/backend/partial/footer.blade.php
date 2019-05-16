@@ -27,6 +27,8 @@
 	<script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.18/b-1.5.6/b-html5-1.5.6/datatables.min.js"></script>
 	<!-- CHARTJS -->
 	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	<!-- Autonumeric -->
+	<script src="{{ asset('plugins/autonumeric/autoNumeric.min.js') }}"></script>
 	<!-- Custom Theme Scripts -->
 	<script src="{{ asset('backend/build/js/custom.js') }}"></script>
 	<script src="{{ asset('js/backend/core.js') }}"></script>
