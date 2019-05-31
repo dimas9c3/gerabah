@@ -31,7 +31,7 @@
 							<ul class="nav side-menu">
 								<li><a href="{{ url('/home') }}"><i class="fa fa-home"></i> Home</a></li>
 								<li><a href="{{ url('/donasi') }}"><i class="fa fa-dollar"></i> Data Donasi</a></li>
-								<li><a href="#"><i class="fa fa-dollar"></i> Data Pengeluaran</a></li>
+								<li><a href="{{ url('pengeluaran') }}"><i class="fa fa-dollar"></i> Data Pengeluaran</a></li>
 								<li><a href="#"><i class="fa fa-file-image-o"></i> Dokumentasi</a></li>
 								<li><a href="#"><i class="fa fa-gear"></i> Setting</a></li>
 							</ul>

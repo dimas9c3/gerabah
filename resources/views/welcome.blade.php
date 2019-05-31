@@ -83,6 +83,9 @@
 						<a class="nav-link js-scroll-trigger" href="#donasi">Donasi</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#rundown">Rundown Acara</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#cara-donasi">Cara Donasi</a>
 					</li>
 					<li class="nav-item">
@@ -148,7 +151,7 @@
 	</section>
 
 	<!-- Donasi Grid -->
-	<section class="bg-light mt-0 wow slideInRight" id="donasi">
+	<section class="bg-light mt-0 wow fadeInDown" id="donasi">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
@@ -187,8 +190,79 @@
 		</div>
 	</section>
 
+	<!-- Rundown -->
+	<section class="bg-light mt-0 wow fadeInDown" id="rundown">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading text-uppercase">Rundown Acara</h2>
+					<h3 class="section-subheading text-muted mb-3">Adapun rundown acara pelaksanaan kegiatan yang Insyaallah akan dilaksanakan Minggu, 2 Juni 2019, adalah sebagai berikut.</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<div class="table-responsive">
+						<table class="table table-striped table-bordered" id="table-donasi">
+							<thead>
+								<th>No</th>
+								<th>Pukul</th>
+								<th>Acara</th>
+								<th>Keterangan</th>
+								<th>Koordinator</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>15.00</td>
+									<td>Panitia, perwakilan donatur berkumpul di rumah Sdri. Winda</td>
+									<td><a href="https://goo.gl/maps/9ycJ83eCGxVqP2YJA" target="_blank">Klik disini untuk membuka koordinat via Google Maps</a></td>
+									<td>Winda</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>15.00 - 15.15</td>
+									<td>Sholat Ashar</td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>15.15 - 15.30</td>
+									<td>Pembukaan acara dilanjutkan dengan brieffing panitia</td>
+									<td></td>
+									<td>Tristian</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>15.30 - 15.45</td>
+									<td>Persiapan keberangkatan dan pembagian rute acara</td>
+									<td></td>
+									<td>Muchlas</td>
+								</tr>
+								<tr>
+									<td>5</td>
+									<td>15.45 - 17.00</td>
+									<td>Pembagian makan dan takjil area Kartasura-Solo, dilanjutkan dengan buka bersama</td>
+									<td></td>
+									<td>Anggi</td>
+								</tr>
+								
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.7632053280736!2d110.74375053877125!3d-7.555507046773487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a14ec498b55d3%3A0xb7f6d48240c3d05d!2sJl.+Slamet+Riyadi+No.2%2C+Dusun+III%2C+Kartasura%2C+Kec.+Kartasura%2C+Kabupaten+Sukoharjo%2C+Jawa+Tengah+57169!5e0!3m2!1sen!2sid!4v1559320962714!5m2!1sen!2sid" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<p class="text-center mt-3">Alamat Winda</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<!-- Cara Donasi -->
-	<section id="cara-donasi" class="wow slideInLeft">
+	<section id="cara-donasi" class="wow fadeInDown">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
@@ -261,77 +335,6 @@
 				</div>
 			</div>
 		</section>
-
-		<!-- Team -->
-		<!--<section class="bg-light" id="team">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-						<h3 class="section-subheading text-muted">Inilah Anggota Team Kami.</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="team-member">
-							<img class="mx-auto rounded-circle" src="{{ asset('frontend/img/team/img-dimas.jpg') }}" alt="">
-							<h4>Dimas Hermawan</h4>
-							<p class="text-muted">Fullstack Programmer</p>
-							<ul class="list-inline social-buttons">
-								<li class="list-inline-item">
-									<a href="https://twitter.com/dimas_9c3" target="_blank">
-										<i class="fab fa-twitter"></i>
-									</a>
-								</li>
-								<li class="list-inline-item">
-									<a href="https://www.facebook.com/dimas9c3" target="_blank">
-										<i class="fab fa-facebook-f"></i>
-									</a>
-								</li>
-								<li class="list-inline-item">
-									<a href="https://wa.me/6282139414263">
-										<i class="fab fa-whatsapp"></i>
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-8 mx-auto text-center">
-						<p class="large text-muted">"Belajar Belajar dan Terus Belajar!"</p>
-					</div>
-				</div>
-			</div>
-		</section>-->
-
-		<!-- Clients -->
-		<!--<section class="py-5">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3 col-sm-6">
-						<a href="#">
-							<img class="img-fluid d-block mx-auto" src="{{ asset('frontend/img/logos/wp.png') }}" alt="">
-						</a>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<a href="#">
-							<img class="img-fluid d-block mx-auto" src="{{ asset('frontend/img/logos/codeigniter.png') }}" alt="">
-						</a>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<a href="#">
-							<img class="img-fluid d-block mx-auto" src="{{ asset('frontend/img/logos/laravel.png') }}" alt="">
-						</a>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<a href="#">
-							<img class="img-fluid d-block mx-auto" src="{{ asset('frontend/img/logos/react.png') }}" alt="">
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>-->
 
 		<!-- Contact -->
 		<section id="contact" class="wow fadeInDown">

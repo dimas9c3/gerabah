@@ -36,5 +36,19 @@ Route::group(['middleware' => ['auth']], function() {
 		// Update Data
 		Route::post('/donasi/update', 'DonasiController@update');
 	});
-});
+
+	// PENGELUARAN SECTION
+	Route::namespace('backend')->group(function() {
+		Route::prefix('pengeluaran')->group(function() {
+			// GET SECTION
+			Route::get('/', 'PengeluaranController@index')->name('pengeluaran.index');
+			// POST SECTION
+			Route::post('/store', 'PengeluaranController@store')->name('pengeluaran.store');
+			// GET DATA
+			Route::post('getData', 'PengeluaranController@getData')->name('pengeluaran.getData');
+			// Destroy Data
+			Route::post('/destroy', 'PengeluaranController@destroy')->name('pengeluaran.destroy');
+		});
+	});
+}); // GROUP MIDDLEWARE AUTH
 
