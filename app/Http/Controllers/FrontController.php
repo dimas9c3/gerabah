@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\models\donasi;
+use App\models\pengeluaran;
 
 class FrontController extends Controller
 {
@@ -52,4 +53,38 @@ class FrontController extends Controller
 			dd($e->getMessage());
 		}  
     }
+
+    public function getAnggaran() {
+    	try {
+			$Qpengeluaran 		= pengeluaran::pengeluaran()
+			->orderBy('id', 'asc')
+			->get();
+
+			$data 	= array();
+			$no 	= 0;
+
+			foreach($Qpengeluaran as $pengeluaran) {
+				$no++;
+				$row = array();
+
+				$row[] = $no;
+				$row[] = date('d M, Y', strtotime($pengeluaran->tanggal));
+				$row[] = 'Rp. '.number_format($pengeluaran->debet);
+				$row[] = 'Rp. '.number_format($pengeluaran->kredit);
+				$row[] = 'Rp. '.number_format($pengeluaran->saldo);
+				$row[] = $pengeluaran->keterangan;
+
+				$data[] = $row;
+
+			}
+
+			$output = array(
+				'data'	=> $data,
+			);
+
+			return response()->json($output);
+		} catch (\Exception $e) {
+			dd($e->getMessage());
+		}
+	}  
 }

@@ -11,6 +11,8 @@
 
 	<!-- jQuery -->
 	<script src="{{ asset('backend/vendors/jquery/dist/jquery.min.js') }}"></script>
+	<!-- Axios -->
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 	<!-- Bootstrap -->
 	<script src="{{ asset('backend/vendors/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 	<!-- FastClick -->
@@ -29,6 +31,8 @@
 	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 	<!-- Autonumeric -->
 	<script src="{{ asset('plugins/autonumeric/autoNumeric.min.js') }}"></script>
+	<!-- Blockui -->
+	<script src="{{ asset('plugins/blockui/jquery.blockUI.js') }}"></script>
 	<!-- Custom Theme Scripts -->
 	<script src="{{ asset('backend/build/js/custom.js') }}"></script>
 	<script src="{{ asset('js/backend/core.js') }}"></script>

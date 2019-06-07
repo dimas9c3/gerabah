@@ -13,6 +13,7 @@
 
 Route::get('/', 'FrontController@index');
 Route::post('/getDonasi', 'FrontController@getDonasi');
+Route::post('/getAnggaran', 'FrontController@getAnggaran');
 
 Auth::routes();
 
@@ -50,5 +51,16 @@ Route::group(['middleware' => ['auth']], function() {
 			Route::post('/destroy', 'PengeluaranController@destroy')->name('pengeluaran.destroy');
 		});
 	});
+
+	// GALLERY SECTION
+	Route::namespace('backend')->group(function() {
+		Route::prefix('gallery')->group(function() {
+			// GET SECTION
+			Route::get('/', 'GalleryController@index')->name('gallery.index');
+			// POST SECTION
+			Route::post('store', 'GalleryController@store')->name('gallery.store');
+		});
+	});
+
 }); // GROUP MIDDLEWARE AUTH
 

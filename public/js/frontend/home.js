@@ -43,4 +43,29 @@ function initComponent() {
 	})
 
 	$('div.dataTables_filter input').addClass('form-control input-sm');
+
+	var table_realisasi_anggaran =  $('#table-realisasi-anggaran').DataTable
+	({
+		ajax            : 
+		{
+			url         : base_url + '/getAnggaran',
+			type        : 'POST',
+			data 		: {_token: token},
+			dataSrc     : 'data',
+		},
+		fixedHeader     : true,
+		paging          : true,
+		pageLength      : 15,
+		lengthChange    : false,
+		searching       : true,
+		search          : 
+		{
+			smart       : false,
+			regex       : true,
+			caseInsen       : true,
+		},
+		aaSorting       : [],
+		ordering        : true,
+		info            : true,
+	})
 }
