@@ -14,6 +14,7 @@
 Route::get('/', 'FrontController@index');
 Route::post('/getDonasi', 'FrontController@getDonasi');
 Route::post('/getAnggaran', 'FrontController@getAnggaran');
+Route::get('/download', 'FrontController@downloadLaporan')->name('front.download');
 
 Auth::routes();
 

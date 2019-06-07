@@ -86,5 +86,10 @@ class FrontController extends Controller
 		} catch (\Exception $e) {
 			dd($e->getMessage());
 		}
+	}
+
+	public function downloadLaporan() {
+		$pathToFile = public_path('storage/files/gerabah2019/gerabah.xlsx');
+		return response()->download($pathToFile);
 	}  
 }
