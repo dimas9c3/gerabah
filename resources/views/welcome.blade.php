@@ -714,7 +714,7 @@
 
 		<!-- Custom scripts for this template -->
 		<script src="{{ asset('frontend/js/agency.min.js') }}"></script>
-		<script src="{{ asset('js/frontend/home.js') }}"></script>
+		<script src="{{ asset('js/frontend/home.js') }}?version={{ mt_rand(1, 100) }}"></script>
 
 		<!-- Plugins -->
 		<script src="{{ asset('plugins/wow/wow.min.js') }}"></script>
