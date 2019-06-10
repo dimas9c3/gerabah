@@ -39,7 +39,7 @@
 
 	<!-- Custom styles for this template -->
 	<link href="{{ asset('frontend/css/agency.css') }}" rel="stylesheet">
-	<link href="{{ asset('frontend/css/custom.css') }}" rel="stylesheet">
+	<link href="{{ asset('frontend/css/custom.css') }}?version={{ mt_rand(1, 100) }}" rel="stylesheet">
 
 	<!-- Plugins -->
 	<link rel="stylesheet" href="{{ asset('plugins/wow/animate.css') }}">
