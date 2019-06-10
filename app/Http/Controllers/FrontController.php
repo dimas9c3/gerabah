@@ -6,11 +6,13 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\models\donasi;
 use App\models\pengeluaran;
+use App\models\gallery;
 
 class FrontController extends Controller
 {
     public function index() {
-    	return view('welcome');
+    	$data['Qgallery'] 		= gallery::gallery()->get();
+    	return view('welcome')->with($data);
     }
 
     public function getDonasi() {

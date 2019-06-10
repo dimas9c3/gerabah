@@ -60,6 +60,7 @@ Route::group(['middleware' => ['auth']], function() {
 			Route::get('/', 'GalleryController@index')->name('gallery.index');
 			// POST SECTION
 			Route::post('store', 'GalleryController@store')->name('gallery.store');
+			Route::post('destroy', 'GalleryController@destroy')->name('gallery.destroy');
 		});
 	});
 

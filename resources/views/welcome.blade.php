@@ -45,6 +45,9 @@
 	<link rel="stylesheet" href="{{ asset('plugins/wow/animate.css') }}">
 	<!-- Datatables -->
 	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+	<!-- OWl Carousel -->
+	<link rel="stylesheet" href="{{ asset('plugins/owl/assets/owl.carousel.min.css') }}">
+	<link rel="stylesheet" href="{{ asset('plugins/owl/assets/owl.theme.default.min.css') }}">
 
 	<script>
 		var base_url 	= '{{ url('/') }}';
@@ -90,6 +93,9 @@
 					</li>
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#cara-donasi">Cara Donasi</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#contact">Kontak</a>
@@ -570,6 +576,30 @@
 			</div>
 		</section>
 
+		<!-- Gallery -->
+		<section id="gallery" class="wow fadeInDown">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2 class="section-heading text-uppercase">Gallery</h2>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="owl-carousel owl-theme">
+							@foreach($Qgallery as $gallery)
+								<div class="item">
+									<img id="myImgGallery{{ $gallery->id }}" src="{{ asset('storage/images/gallery/gerabah2019/thumbnail/'.$gallery->file) }}" alt="{{ $gallery->caption }}" onclick="javascript:showModalGallery({{ $gallery->id}})">
+									<h5 class="mt-3 text-center">{{ $gallery->caption }}</h5>
+								</div>
+							@endforeach
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<!-- Contact -->
 		<section id="contact" class="wow fadeInDown">
 			<div class="container">
@@ -701,6 +731,13 @@
 			</div>
 		</div>
 
+		<!-- The Modal Gallery -->
+		<div id="myModalGallery" class="modalGallery">
+			<span class="close">&times;</span>
+			<img class="modal-contentGallery" id="modal-contentGallery">
+			<div id="captionGallery"></div>
+		</div>
+
 		<!-- Bootstrap core JavaScript -->
 		<script src="{{ asset('frontend/vendor/jquery/jquery.min.js') }}"></script>
 		<script src="{{ asset('frontend/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
@@ -721,6 +758,8 @@
 		<!-- Datatables -->
 		<script src="{{ asset('plugins/datatables/js/jquery.dataTables.min.js') }}"></script>
 		<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+		<!-- OWL Carousel -->
+		<script src="{{ asset('plugins/owl/owl.carousel.min.js') }}"></script>
 		
 		<!-- Init Component -->
 		<script>

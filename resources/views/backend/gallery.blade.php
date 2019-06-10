@@ -34,7 +34,7 @@
 							<strong>Error!</strong> {{ session()->get('error_message') }}
 						</div>
 						@endif
-						<h2>Data Pengeluaran</h2>
+						<h2>Data Dokumentasi Foto</h2>
 						<ul class="nav navbar-right panel_toolbox">
 							<button class="btn btn-primary" data-toggle="modal" data-target="#modal-tambah">Tambah Data</button>
 						</ul>
@@ -43,22 +43,33 @@
 					</div>
 					<div class="x_content">
 						<div class="table-responsive">
-							<table id="table-pengeluaran" class="table table-bordered table-striped" style="height: auto;">
+							<table class="table table-bordered table-striped" style="height: auto;">
 								<thead>
 									<th>No</th>
-									<th>Tanggal</th>
-									<th>Debet</th>
-									<th>Kredit</th>
-									<th>Saldo</th>
-									<th>Keterangan</th>
-									<th>Admin</th>
+									<th>Image</th>
+									<th>Caption</th>
 									<th>Aksi</th>
 								</thead>
 								<tbody id="table-data">
-
+								@if($Qgallery->isEmpty())
+									<tr>
+										<td colspan="4">Data is empty</td>
+									</tr>
+								@else
+								@php $no = 1; @endphp
+								@foreach($Qgallery as $key=> $gallery)
+									<tr>
+										<td>{{ $key+ $Qgallery->firstItem() }}</td>
+										<td><img style="width: auto; height:150px" src="{{ asset('storage/images/gallery/gerabah2019/thumbnail/'.$gallery->file) }}" alt="{{ $gallery->caption }}"></td>
+										<td>{{ $gallery->caption }}</td>
+										<td><button type="button" data="{{ base64_encode($gallery->id) }}" file="images/gallery/gerabah2019/thumbnail/{{ $gallery->file }}" class="btn btn-danger item-hapus"><i class="fa fa-trash"></i> Hapus</button></td>
+									</tr>
+								@endforeach
+								@endif
 								</tbody>
-
+								
 							</table>
+							{{ $Qgallery->links() }}
 						</div>
 					</div>
 				</div>

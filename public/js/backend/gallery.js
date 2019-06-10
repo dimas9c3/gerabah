@@ -4,60 +4,10 @@ function init() {
 
 function initComponent() {
 
-	var table_pengeluaran =  $('#table-pengeluaran').DataTable
-	({
-		ajax            : 
-		{
-			url         : base_url + '/pengeluaran/getData',
-			type        : 'POST',
-			data 		: {_token: token},
-			dataSrc     : 'data',
-		},
-		fixedHeader     : true,
-		paging          : true,
-		pageLength      : 10,
-		lengthChange    : true,
-		searching       : true,
-		search          : 
-		{
-			smart       : false,
-			regex       : true,
-			caseInsen       : true,
-		},
-		aaSorting       : [],
-		ordering        : true,
-		info            : true,
-		dom             : 'Bfrtip',
-		buttons: 
-		[
-		{
-			extend: 'pdfHtml5',
-			orientation: 'portrait',
-			pageSize: 'A4',
-			title: 'Laporan Pengeluaran Gerabah',
-			text: 'Export As PDF',
-			exportOptions:
-			{
-				columns: [0,1,2,3,4,5]
-			},
-			customize: function ( doc ) {
-				doc.content[1].table.widths = [
-				'5%',
-				'10%',
-				'10%',
-				'20%',
-				'35%',
-				'20%',
-				]
-			},
-			footer: true
-		},
-		]
-	})
-
 	$('#table-data').on('click','.item-hapus',function()
 	{
 		var id      = $(this).attr('data');
+		var file 	= $(this).attr('file');
 		swal({
 			title: "Apakah anda yakin akan menghapus data ini?",
 			icon: "warning",
@@ -66,20 +16,45 @@ function initComponent() {
 		})
 		.then((willDelete) => {
 			if (willDelete) {
-				$.post(base_url + '/pengeluaran/destroy', {
+				$.blockUI({ css: {
+					zIndex: 20000,
+					border: 'none', 
+					padding: '15px', 
+					backgroundColor: '#000', 
+					'-webkit-border-radius': '10px', 
+					'-moz-border-radius': '10px', 
+					opacity: .5, 
+					color: '#fff' 
+				} }); 
+
+				axios.post(base_url + '/gallery/destroy', {
 					id: id,
-					_token: token
-				},
-				function(response) {
-					if (response.result == 1) {
-						table_pengeluaran.ajax.reload();
-						swal("Good job !", response.message, "success");
+					file: file,
+				})
+				.then(function (response) {
+					if (response.data.result == 1) {
+						swal("Good job !", response.data.message, "success")
+						.then((ok) => {
+							window.location = base_url + "/gallery";
+						});
 					}else {
-						swal(" Error !", response.message, "error");
+						swal("error !", response.data.message, "error")
 					}
-					
-				}
-				);
+					$.unblockUI();
+
+				})
+				.catch(function (error) {
+					if (error.data.result == 1) {
+						swal("Good job !", error.data.message, "success")
+						.then((ok) => {
+							window.location = base_url + "/gallery";
+						});
+					}else {
+						swal(" Error !", error.data.message, "error");
+					}
+					$.unblockUI();
+					console.log(error);
+				});
 			}
 		});
 	})
@@ -110,7 +85,10 @@ $('#form-tambah').on('submit', function(e) {
 	})
 	.then(function (response) {
 		if (response.data.result == 1) {
-			swal("Good job !", response.data.message, "success");
+			swal("Good job !", response.data.message, "success")
+			.then((ok) => {
+				window.location = base_url + "/gallery";
+			});
 		}else {
 			swal(" Error !", response.data.message, "error");
 		}
@@ -120,7 +98,10 @@ $('#form-tambah').on('submit', function(e) {
 	})
 	.catch(function (error) {
 		if (error.data.result == 1) {
-			swal("Good job !", error.data.message, "success");
+			swal("Good job !", response.data.message, "success")
+			.then((ok) => {
+				window.location = base_url + "/gallery";
+			});
 		}else {
 			swal(" Error !", error.data.message, "error");
 		}

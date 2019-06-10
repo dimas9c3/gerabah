@@ -12,7 +12,9 @@ use Auth;
 class GalleryController extends Controller
 {
     public function index() {
-    	$data['jsInclude'] = 'js/backend/gallery.js?version='.mt_rand(1, 100);
+    	$data['jsInclude'] 		= 'js/backend/gallery.js?version='.mt_rand(1, 100);
+    	$data['Qgallery'] 		= gallery::gallery()
+    							->paginate(7);
     	return view('backend.gallery')->with($data);
     }
 
@@ -33,7 +35,7 @@ class GalleryController extends Controller
 		//Resize image here
     	$image = Image::make($file->getRealPath());
 
-    	$image->resize(null, 300, function ($constraint) {
+    	$image->resize(null, 500, function ($constraint) {
     		$constraint->aspectRatio();
     	})->save($thumbnailpath);
 
@@ -55,6 +57,27 @@ class GalleryController extends Controller
     		);
     	}
 
+    	return response()->json($result);
+    }
+
+    public function destroy(Request $request) {
+    	
+    	$data   = gallery::find(base64_decode($request->id));
+    	$query 	= $data->ForceDelete();
+
+    	if ($query) {
+    		Storage::disk('public')->delete($request->file);
+    		$result = array(
+    			'result'	=> 1,
+    			'message'	=> 'Berhasil hapus data',
+    		);
+    	}else {
+    		$result = array(
+    			'result'	=> 0,
+    			'message'	=> 'Gagal hapus data',
+    		);
+    	}
+    	
     	return response()->json($result);
     }
 }
