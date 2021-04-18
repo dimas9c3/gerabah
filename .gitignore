@@ -1,5 +1,7 @@
 /node_modules
 /public/hot
+/public/frontend/vendor
+/public/plugins
 /public/.htaccess
 /public/storage
 /storage/*.key
@@ -15,3 +17,5 @@ npm-debug.log
 yarn-error.log
 .env
 .phpunit.result.cache
+.directory
+composer.lock

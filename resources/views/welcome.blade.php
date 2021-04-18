@@ -153,7 +153,7 @@
 						<i class="fas fa-people-carry fa-stack-1x fa-inverse"></i>
 					</span>
 					<h4 class="service-heading">Pelaksanaan Kegiatan</h4>
-					<p class="text-muted">Gerabah yang awalnya hanya berbagi nasi bungkus yang dananya diperoleh dari iuran sebagian uang saku anak  SMA, sekarang Gerabah sudah mulai bisa membantu untuk kegiatan lain. Beberapa program.. <a href="#" data-toggle='modal' data-target='#modal-pelaksanaan-kegiatan'>Read More</a></p>
+					<p class="text-muted">Gerabah yang awalnya hanya berbagi nasi bungkus yang dananya diperoleh dari iuran seikhlasnya dari donatur, sekarang Gerabah sudah mulai bisa membantu untuk kegiatan lain. Beberapa program.. <a href="#" data-toggle='modal' data-target='#modal-pelaksanaan-kegiatan'>Read More</a></p>
 				</div>
 			</div>
 		</div>
