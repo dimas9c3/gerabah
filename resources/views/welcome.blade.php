@@ -16,7 +16,7 @@
 	<meta property="og:description" content="GERABAH (Gerakan Ramadhan Berkah) - Mari Sedekah di Bulan Berkah">
 	<meta property="og:site_name" content="gerabah.iamhermawan.com">
 	<meta property="og:url" content="http://gerabah.iamhermawan.com/">
-	<meta property="og:image" content="{{ asset('frontend/img/header-bg.jpg') }}"/>
+	<meta property="og:image" content="{{ asset('frontend/img/header-bg-blue.jpg') }}"/>
 	<link rel="canonical" href="http://gerabah.iamhermawan.com/">
 	<meta name="theme-color" content="#1abb9c" />
 	<meta name="geo.country" content="id"/>
