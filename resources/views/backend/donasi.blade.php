@@ -91,7 +91,7 @@
 						<input type="text" name="nama" class="form-control" placeholder="Input Donatur" required>
 					</div>
 					<div class="form-group">
-						<label>Tampilkan Donatur Sebagai Anonymous ?</label>
+						<label>Tampilkan Donatur Sebagai Hamba Allah ?</label>
 						<select name="jenis" class="form-control">
 							<option value="1" selected="selected">Ya</option>
 							<option value="0">Tidak</option>
@@ -99,7 +99,7 @@
 					</div>
 					<div class="form-group">
 						<label>Jumlah Nominal Donasi *</label>
-						<input type="text" name="jumlah" class="form-control autonumeric-input" min="0" placeholder="Input Jumlah Donasi" required>
+						<input type="text" name="jumlah" class="form-control autonumeric-input" min="0" placeholder="Input Jumlah Donasi" autocomplete="off" required>
 					</div>
 					<div class="form-group">
 						<label>Tanggal Donasi</label>
@@ -136,7 +136,7 @@
 						<input type="text" name="nama" id="edit-nama" class="form-control" value="" required>
 					</div>
 					<div class="form-group">
-						<label>Tampilkan Donatur Sebagai Anonymous ?</label>
+						<label>Tampilkan Donatur Sebagai Hamba Allah ?</label>
 						<select name="jenis" id="edit-jenis" class="form-control">
 							<option value="1" selected="selected">Ya</option>
 							<option value="0">Tidak</option>
@@ -144,7 +144,7 @@
 					</div>
 					<div class="form-group">
 						<label>Jumlah Nominal Donasi *</label>
-						<input type="text" name="jumlah" id="edit-jumlah" class="form-control autonumeric-input" value="" required>
+						<input type="text" name="jumlah" id="edit-jumlah" class="form-control autonumeric-input" value="" autocomplete="off" required>
 					</div>
 					<div class="form-group">
 						<label>Tanggal Donasi</label>
