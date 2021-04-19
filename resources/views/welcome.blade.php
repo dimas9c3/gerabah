@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="GERABAH (Gerakan Ramadhan Berkah) - Mari Sedekah di Bulan Berkah">
@@ -85,12 +83,12 @@
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#donasi">Donasi</a>
 					</li>
-					<li class="nav-item">
+					{{-- <li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#rundown">Rundown Acara</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#realisasi-donasi">Laporan Realisasi Donasi</a>
-					</li>
+					</li>--}}
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#cara-donasi">Cara Donasi</a>
 					</li>
@@ -166,11 +164,11 @@
 				<div class="col-lg-12 text-center">
 					<h2 class="section-heading text-uppercase">Donasi</h2>
 					<h3 class="section-subheading text-muted mb-3">Berikut adalah update donasi yang telah masuk pada kami.</h3>
-					<div class="alert alert-warning mt-0" role="alert">
+					{{-- <div class="alert alert-warning mt-0" role="alert">
 						<h4>Info</h4>
 						<p>Kami membuka donasi sampai hari Jumat tanggal 31 Mei 2019.</p>
 						<p>Untuk hari pelaksanaan kegiatan InsyaAllah akan dilaksanakan pada hari Minggu tanggal 2 Juni 2019.</p>
-					</div>
+					</div> --}}
 				</div>
 			</div>
 			<div class="row">
@@ -199,6 +197,7 @@
 		</div>
 	</section>
 
+	{{--
 	<!-- Rundown -->
 	<section class="bg-light mt-0 wow fadeInDown" id="rundown">
 		<div class="container">
@@ -269,7 +268,9 @@
 			</div>
 		</div>
 	</section>
+	--}}
 
+	{{--
 	<!-- Laporan Penggunaan Donasi -->
 	<section class="bg-light mt-0 wow fadeInDown" id="realisasi-donasi">
 		<div class="container">
@@ -500,6 +501,7 @@
 			</div>
 		</div>
 	</section>
+	--}}
 
 	<!-- Cara Donasi -->
 	<section id="cara-donasi" class="wow fadeInDown">
@@ -525,14 +527,19 @@
 								<div class="timeline-body">
 									<p class="text-muted text-left">Silahkan Transfer sejumlah nominal yang ingin anda donasikan ke rekening berikut :</p>
 									<p class="text-left text-muted">
-										Atas Nama 	   : <strong>Ela Kusumawati</strong><br>
-										Nama Bank      : <strong>BRI</strong><br>
-										Nomor Rekening : <strong>690001007713531</strong>
-									</p>
-									<p class="text-left text-muted mt-3">
 										Atas Nama 	   : <strong>Alifa Zahra Adhyana</strong><br>
 										Nama Bank      : <strong>BNI</strong><br>
 										Nomor Rekening : <strong>0249659618</strong>
+									</p>
+									<p class="text-left text-muted mt-3">
+										Atas Nama 	   : <strong>Anggi Febriana Kusumahati</strong><br>
+										Nama Bank      : <strong>BCA</strong><br>
+										Nomor Rekening : <strong>3930702497</strong>
+									</p>
+									<p class="text-left text-muted mt-3">
+										Atas Nama 	   : <strong>Tristian Dwi Nur Cendana</strong><br>
+										Nama Bank      : <strong>BRI</strong><br>
+										Nomor Rekening : <strong>050701017983502</strong>
 									</p>
 								</div>
 							</div>
@@ -614,18 +621,7 @@
 						<form id="contactForm" name="sentMessage" novalidate="novalidate">
 							<div class="row">
 								<div class="clearfix"></div>
-								<div class="col-lg-6 text-center">
-									<div id="success"></div>
-									<p class="text-primary">
-										Atas Nama 	   : <strong>Ela Kusumawati</strong><br>
-										Nama Bank      : <strong>BRI</strong><br>
-										Nomor Rekening : <strong>690001007713531</strong>
-
-									</p>
-									<a class="btn btn-primary btn-sm text-uppercase" href="https://api.whatsapp.com/send?phone=6285803650505&text=&source=&data=#" target="_blank">Chat Ela</a>
-
-								</div>
-								<div class="col-lg-6 text-center kontak-footer-2">
+								<div class="col-lg-4 mb-3 text-center kontak-footer-2">
 									<div id="success"></div>
 									<p class="text-primary">
 										Atas Nama 	   : <strong>Alifa Zahra Adhyana</strong><br>
@@ -633,6 +629,27 @@
 										Nomor Rekening : <strong>0249659618</strong>
 									</p>
 									<a id="sendMessageButton" class="btn btn-primary btn-sm text-uppercase" href="https://api.whatsapp.com/send?phone=62895320982395&text=&source=&data=#" target="_blank">Chat Alifa</a>
+								</div>
+								<div class="col-lg-4 mb-3 text-center">
+									<div id="success"></div>
+									<p class="text-primary">
+										Atas Nama 	   : <strong>Anggi Febriana Kusumahati</strong><br>
+										Nama Bank      : <strong>BCA</strong><br>
+										Nomor Rekening : <strong>3930702497</strong>
+									</p>
+									<a class="btn btn-primary btn-sm text-uppercase" href="https://api.whatsapp.com/send?phone=6287835543210&text=&source=&data=#" target="_blank">Chat Anggi</a>
+
+								</div>
+								<div class="col-lg-4 mb-3 text-center">
+									<div id="success"></div>
+									<p class="text-primary">
+										Atas Nama 	   : <strong>Tristian Dwi Nur Cendana</strong><br>
+										Nama Bank      : <strong>BRI</strong><br>
+										Nomor Rekening : <strong>050701017983502</strong>
+
+									</p>
+									<a class="btn btn-primary btn-sm text-uppercase" href="https://api.whatsapp.com/send?phone=6287854790450&text=&source=&data=#" target="_blank">Chat Tristian</a>
+
 								</div>
 							</div>
 						</form>
@@ -714,7 +731,7 @@
 							<div class="col-lg-8 mx-auto">
 								<div class="modal-body">
 									<h4 class="text-uppercase">Pelaksanaan Kegiatan GERABAH</h4>
-									<p class="text-left">Gerabah yang awalnya hanya berbagi nasi bungkus yang dananya diperoleh dari iuran sebagian uang saku anak  SMA, sekarang Gerabah sudah mulai bisa membantu untuk kegiatan lain. Beberapa program kegiatan Gerabah:</p>
+									<p class="text-left">Gerabah yang awalnya hanya berbagi nasi bungkus yang dananya diperoleh dari donasi seikhlasnya para donatur, sekarang Gerabah sudah mulai bisa membantu untuk kegiatan lain. Beberapa program kegiatan Gerabah:</p>
 									<p class="text-left">1. Membagikan takjil dan nasi kotak di jalan sekitar Solo dan Sukoharjo</p>
 									<p class="text-left">2. Donasi pembangunan masjid</p>
 									<p class="text-left">3. Donasi Panti Asuhan</p>
