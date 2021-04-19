@@ -36,7 +36,7 @@ class DonasiController extends Controller
 				if ($donasi->jenis_donatur == 0) {
 					$row[] = strtoupper($donasi->donatur);
 				}else {
-					$row[] = 'ANONYMOUS';
+					$row[] = 'Hamba Allah';
 				}
 				
 				$row[] = 'Rp. '.number_format($donasi->nominal);
@@ -70,7 +70,7 @@ class DonasiController extends Controller
 			$query = $data->save();
 
 			if ($request->jenis == 1) {
-				$nama = 'ANONYMOUS';
+				$nama = 'Hamba Allah';
 			}else {
 				$nama = strtoupper($request->nama);
 			}
@@ -99,7 +99,7 @@ class DonasiController extends Controller
 				. "Total Donasi Terkumpul : Rp. ".number_format($Qtot).""
 				. "\n"
 				. "\n"
-				. "Cek Perkembangan GERABAH Melalui Website Resmi Dengan Mengklik Tautan Dibawah :"
+				. "Cek Perkembangan GERABAH Melalui Website :"
 				. "\n"
 				. "\n"
 				. "<a href='https://gerabah.iamhermawan.com'>LINK</a>";

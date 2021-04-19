@@ -36,7 +36,7 @@ class FrontController extends Controller
 				if ($donasi->jenis_donatur == 0) {
 					$row[] = strtoupper($donasi->donatur);
 				}else {
-					$row[] = 'ANONYMOUS';
+					$row[] = 'Hamba Allah';
 				}
 				
 				$row[] = 'Rp. '.number_format($donasi->nominal);
