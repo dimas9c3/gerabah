@@ -83,12 +83,14 @@
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#donasi">Donasi</a>
 					</li>
-					{{-- <li class="nav-item">
+					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#rundown">Rundown Acara</a>
 					</li>
+					{{--
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#realisasi-donasi">Laporan Realisasi Donasi</a>
-					</li>--}}
+					</li>
+					--}}
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#cara-donasi">Cara Donasi</a>
 					</li>
@@ -163,12 +165,12 @@
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<h2 class="section-heading text-uppercase">Donasi</h2>
-					<h3 class="section-subheading text-muted mb-3">Berikut adalah update donasi yang telah masuk pada kami.</h3>
-					{{-- <div class="alert alert-warning mt-0" role="alert">
+					<h3 class="section-subheading text-muted mb-3">Berikut adalah update donasi yang telah masuk pada kami. Laporan realisasi penggunaan anggaran gerabah akan diupdate setelah acara selesai.</h3>
+					<div class="alert alert-warning mt-0" role="alert">
 						<h4>Info</h4>
-						<p>Kami membuka donasi sampai hari Jumat tanggal 31 Mei 2019.</p>
-						<p>Untuk hari pelaksanaan kegiatan InsyaAllah akan dilaksanakan pada hari Minggu tanggal 2 Juni 2019.</p>
-					</div> --}}
+						<p>Kami membuka donasi sampai hari Jumat, 7 Mei 2021.</p>
+						<p>Untuk hari pelaksanaan kegiatan InsyaAllah akan dilaksanakan pada hari Sabtu, 8 Mei 2021.</p>
+					</div>
 				</div>
 			</div>
 			<div class="row">
@@ -197,14 +199,13 @@
 		</div>
 	</section>
 
-	{{--
 	<!-- Rundown -->
 	<section class="bg-light mt-0 wow fadeInDown" id="rundown">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<h2 class="section-heading text-uppercase">Rundown Acara</h2>
-					<h3 class="section-subheading text-muted mb-3">Adapun rundown acara pelaksanaan kegiatan yang Insyaallah akan dilaksanakan Minggu, 2 Juni 2019, adalah sebagai berikut.</h3>
+					<h3 class="section-subheading text-muted mb-3">Adapun rundown acara pelaksanaan kegiatan pembagian takjil yang Insyaallah akan dilaksanakan Sabtu, 8 Mei 2021, adalah sebagai berikut.</h3>
 				</div>
 			</div>
 			<div class="row">
@@ -221,8 +222,8 @@
 							<tbody>
 								<tr>
 									<td>1</td>
-									<td>15.00</td>
-									<td>Panitia, perwakilan donatur berkumpul di rumah Sdri. Winda</td>
+									<td>14.30</td>
+									<td>Panitia, perwakilan donatur, relawan berkumpul di rumah Sdri. Winda (Belakang stiker moeroep Kartasura)</td>
 									<td><a href="https://goo.gl/maps/9ycJ83eCGxVqP2YJA" target="_blank">Klik disini untuk membuka koordinat via Google Maps</a></td>
 									<td>Winda</td>
 								</tr>
@@ -249,8 +250,8 @@
 								</tr>
 								<tr>
 									<td>5</td>
-									<td>15.45 - 17.00</td>
-									<td>Pembagian makan dan takjil area Kartasura-Solo, dilanjutkan dengan buka bersama</td>
+									<td>15.45 - Selesai</td>
+									<td>Pembagian makan dan takjil area Kartasura-Solo, dilanjutkan dengan buka bersama relawan gerabah (Opsional bagi yang berkenan)</td>
 									<td></td>
 									<td>Anggi</td>
 								</tr>
@@ -268,7 +269,6 @@
 			</div>
 		</div>
 	</section>
-	--}}
 
 	{{--
 	<!-- Laporan Penggunaan Donasi -->
