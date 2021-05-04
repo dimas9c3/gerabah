@@ -204,8 +204,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<h2 class="section-heading text-uppercase">Rundown Acara</h2>
-					<h3 class="section-subheading text-muted mb-3">Adapun rundown acara pelaksanaan kegiatan pembagian takjil yang Insyaallah akan dilaksanakan Sabtu, 8 Mei 2021, adalah sebagai berikut.</h3>
+					<h2 class="section-heading text-uppercase">Rundown Acara Pembagian Takjil</h2>
+					<h3 class="section-subheading text-muted mb-3">Rundown acara pelaksanaan kegiatan pembagian takjil yang Insyaallah akan dilaksanakan Sabtu, 8 Mei 2021, adalah sebagai berikut.</h3>
 				</div>
 			</div>
 			<div class="row">
@@ -267,6 +267,72 @@
 					<p class="text-center mt-3">Alamat Winda</p>
 				</div>
 			</div>
+
+			<div class="row mt-3">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading text-uppercase">Rundown Acara Panti SCHIZOFREN</h2>
+					<h3 class="section-subheading text-muted mb-3">Rundown acara pelaksanaan kegiatan pembagian bantuan ke panti SCHIZOFREN dilaksanakan Minggu, 9 Mei 2021, adalah sebagai berikut.</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<div class="table-responsive">
+						<table class="table table-striped table-bordered" id="table-donasi">
+							<thead>
+								<th>No</th>
+								<th>Pukul</th>
+								<th>Acara</th>
+								<th>Keterangan</th>
+								<th>Koordinator</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>07.30</td>
+									<td>Panitia, perwakilan donatur, relawan berkumpul di rumah Sdri. Anggi</td>
+									<td><!--<a href="https://goo.gl/maps/9ycJ83eCGxVqP2YJA" target="_blank">Klik disini untuk membuka koordinat via Google Maps</a>--></td>
+									<td>Anggi</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>07.45 - 08.45</td>
+									<td>Berangkat Menuju Lokasi</td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>09.00</td>
+									<td>Pembukaan acara dan pengantar</td>
+									<td></td>
+									<td>Tristian</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>09.05</td>
+									<td>Penyerahan tali kasih</td>
+									<td></td>
+									<td>Muchlas</td>
+								</tr>
+								<tr>
+									<td>5</td>
+									<td>09.10- Selesai</td>
+									<td>Acara santai/bebas lalu pulang</td>
+									<td></td>
+									<td>Anggi</td>
+								</tr>
+								
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="row">
+				<div class="col-md-12">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.7632053280736!2d110.74375053877125!3d-7.555507046773487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a14ec498b55d3%3A0xb7f6d48240c3d05d!2sJl.+Slamet+Riyadi+No.2%2C+Dusun+III%2C+Kartasura%2C+Kec.+Kartasura%2C+Kabupaten+Sukoharjo%2C+Jawa+Tengah+57169!5e0!3m2!1sen!2sid!4v1559320962714!5m2!1sen!2sid" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<p class="text-center mt-3">Alamat Winda</p>
+				</div>
+			</div> -->
 		</div>
 	</section>
 
