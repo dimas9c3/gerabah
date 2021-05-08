@@ -196,6 +196,45 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="row mt-3">
+				<div class="col-lg-12 text-center">
+					<h3 class="section-subheading text-muted mb-3">Berikut adalah donasi non tunai yang masuk pada kami.</h3>
+				</div>
+				<div class="col-md-12 col-sm-12">
+					<div class="table-responsive">
+						<table class="table table-striped table-bordered">
+							<thead>
+								<th>No</th>
+								<th>Tanggal</th>
+								<th>Donatur</th>
+								<th>Bentuk Donasi</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>02 May, 2021</td>
+									<td>Hamba Allah</td>
+									<td>Air mineral 4 dus</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>08 May, 2021</td>
+									<td>Hamba Allah</td>
+									<td>Paket takjil 20 packs</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>08 May, 2021</td>
+									<td>Hamba Allah</td>
+									<td>Paket takjil 20 packs</td>
+								</tr>
+								
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -270,8 +309,8 @@
 
 			<div class="row mt-3">
 				<div class="col-lg-12 text-center">
-					<h2 class="section-heading text-uppercase">Rundown Acara Panti SCHIZOFREN</h2>
-					<h3 class="section-subheading text-muted mb-3">Rundown acara pelaksanaan kegiatan pembagian bantuan ke panti SCHIZOFREN dilaksanakan Minggu, 9 Mei 2021, adalah sebagai berikut.</h3>
+					<h2 class="section-heading text-uppercase">Rundown Acara Lentera & Gunungan</h2>
+					<h3 class="section-subheading text-muted mb-3">Rundown acara pelaksanaan kegiatan pembagian bantuan ke Yayasan Lentera & Panti Asuhan Gunungan dilaksanakan Minggu, 9 Mei 2021, adalah sebagai berikut.</h3>
 				</div>
 			</div>
 			<div class="row">
@@ -288,35 +327,35 @@
 							<tbody>
 								<tr>
 									<td>1</td>
-									<td>07.30</td>
+									<td>09.00</td>
 									<td>Panitia, perwakilan donatur, relawan berkumpul di rumah Sdri. Anggi</td>
 									<td><!--<a href="https://goo.gl/maps/9ycJ83eCGxVqP2YJA" target="_blank">Klik disini untuk membuka koordinat via Google Maps</a>--></td>
 									<td>Anggi</td>
 								</tr>
 								<tr>
 									<td>2</td>
-									<td>07.45 - 08.45</td>
+									<td>09.15 - 10.15</td>
 									<td>Berangkat Menuju Lokasi</td>
 									<td></td>
 									<td></td>
 								</tr>
 								<tr>
 									<td>3</td>
-									<td>09.00</td>
+									<td>10.30</td>
 									<td>Pembukaan acara dan pengantar</td>
 									<td></td>
 									<td>Tristian</td>
 								</tr>
 								<tr>
 									<td>4</td>
-									<td>09.05</td>
+									<td>10.45</td>
 									<td>Penyerahan tali kasih</td>
 									<td></td>
 									<td>Muchlas</td>
 								</tr>
 								<tr>
 									<td>5</td>
-									<td>09.10- Selesai</td>
+									<td>10.50- Selesai</td>
 									<td>Acara santai/bebas lalu pulang</td>
 									<td></td>
 									<td>Anggi</td>
