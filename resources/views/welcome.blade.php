@@ -410,7 +410,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 col-sm-12" style="overflow-y: hidden">
-					<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTE3Dag3_-lDX0n-BpgUOa2K8RXBblF08vrtS93D-43u72NVs0ERHYwLfGgRi51Qw/pubhtml?widget=true&amp;headers=false" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTE3Dag3_-lDX0n-BpgUOa2K8RXBblF08vrtS93D-43u72NVs0ERHYwLfGgRi51Qw/pubhtml?widget=true&amp;headers=false" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 			</div>
 	</section>
