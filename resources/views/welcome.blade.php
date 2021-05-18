@@ -86,11 +86,9 @@
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#rundown">Rundown Acara</a>
 					</li>
-					{{--
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#realisasi-donasi">Laporan Realisasi Donasi</a>
 					</li>
-					--}}
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#cara-donasi">Cara Donasi</a>
 					</li>
@@ -375,7 +373,6 @@
 		</div>
 	</section>
 
-	{{--
 	<!-- Laporan Penggunaan Donasi -->
 	<section class="bg-light mt-0 wow fadeInDown" id="realisasi-donasi">
 		<div class="container">
@@ -404,209 +401,19 @@
 					</div>
 				</div>
 			</div>
+      <div class="row" style="margin-top: 3rem;">
+        <div class="col-md-12 col-sm-12">
+          <div class="col-lg-12 text-center">
+            <h4 class="section-heading text-uppercase">Detail Laporan Realisasi Anggaran</h4>
+          </div>
+        </div>
+      </div>
 			<div class="row">
-				<div class="col-md-12 col-sm-12">
-					<h3 class="text-center mt-5">Rincian Belanja Sembako Yayasan Lentera</h3>
-					<div class="table-responsive">
-						<table class="table table-striped table-bordered">
-							<thead>
-								<th>No</th>
-								<th>Tanggal</th>
-								<th>Kredit</th>
-								<th>Jumlah</th>
-								<th>Keterangan</th>
-							</thead>
-							<tbody>
-								<tr>
-									<td>1</td>
-									<td>31 May, 2019</td>
-									<td>Rp. 33,000</td>
-									<td>2</td>
-									<td>Sirup Fresh</td>
-								</tr>
-								<tr>
-									<td>2</td>
-									<td>31 May, 2019</td>
-									<td>Rp. 22,000</td>
-									<td>2</td>
-									<td>Sirup ABC</td>
-								</tr>
-								<tr>
-									<td>3</td>
-									<td>31 May, 2019</td>
-									<td>Rp. 33,000</td>
-									<td>2</td>
-									<td>Sirup Marjan</td>
-								</tr>
-								<tr>
-									<td>4</td>
-									<td>31 May, 2019</td>
-									<td>Rp. 87,000</td>
-									<td>5</td>
-									<td>Sarden Besar</td>
-								</tr>
-								<tr>
-									<td>5</td>
-									<td>31 May, 2019</td>
-									<td>Rp. 75,000</td>
-									<td>10</td>
-									<td>Sarden Kecil</td>
-								</tr>
-								<tr>
-									<td>6</td>
-									<td>31 May, 2019</td>
-									<td>Rp. 160,000</td>
-									<td></td>
-									<td>Susu Frisian Flag</td>
-								</tr>
-								<tr>
-									<td>7</td>
-									<td>31 May, 2019</td>
-									<td>Rp. 83,000</td>
-									<td></td>
-									<td>Mie Instan (Supermie)</td>
-								</tr>
-								<tr>
-									<td>8</td>
-									<td>31 May, 2019</td>
-									<td>Rp. 89,000</td>
-									<td></td>
-									<td>Mie Instan (Indomie)</td>
-								</tr>
-								<tr>
-									<td>9</td>
-									<td>31 May, 2019</td>
-									<td>Rp. 75,000</td>
-									<td>6 KG</td>
-									<td>Gula Pasir</td>
-								</tr>
-								<tr>
-									<td>10</td>
-									<td>31 May, 2019</td>
-									<td>Rp. 72,000</td>
-									<td>6 Liter</td>
-									<td>Minyak Goreng</td>
-								</tr>
-								<tr>
-									<td>11</td>
-									<td>31 May, 2019</td>
-									<td>Rp. 26,000</td>
-									<td></td>
-									<td>Teh Gardoe</td>
-								</tr>
-								<tr>
-									<td>12</td>
-									<td>31 May, 2019</td>
-									<td>Rp. 88,000</td>
-									<td>4 KG</td>
-									<td>Telur</td>
-								</tr>
-								<tr>
-									<td>13</td>
-									<td>31 May, 2019</td>
-									<td>Rp. 565,000</td>
-									<td></td>
-									<td>Beras</td>
-								</tr>
-							</tbody>
-							<tfoot>
-								<tr>
-									<td colspan="2">Total</td>
-									<td colspan="3">Rp. 1,408,000</td>
-								</tr>
-							</tfoot>
-						</table>
-					</div>
-				</div>
+        <div class="col-md-12 col-sm-12">
+          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTE3Dag3_-lDX0n-BpgUOa2K8RXBblF08vrtS93D-43u72NVs0ERHYwLfGgRi51Qw/pubhtml?widget=true&amp;headers=false" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
 			</div>
-			<div class="row">
-				<div class="col-md-12 col-sm-12">
-					<h3 class="text-center mt-5">Rincian Belanja Alat Solat untuk Masjid</h3>
-					<div class="table-responsive">
-						<table class="table table-striped table-bordered">
-							<thead>
-								<th>No</th>
-								<th>Tanggal</th>
-								<th>Kredit</th>
-								<th>Jumlah</th>
-								<th>Keterangan</th>
-							</thead>
-							<tbody>
-								<tr>
-									<td>1</td>
-									<td>31 May, 2019</td>
-									<td>Rp. 650,000</td>
-									<td>10</td>
-									<td>Mukena</td>
-								</tr>
-								<tr>
-									<td>2</td>
-									<td>31 May, 2019</td>
-									<td>Rp. 550,000</td>
-									<td>10</td>
-									<td>Sarung</td>
-								</tr>
-								<tr>
-									<td>3</td>
-									<td>31 May, 2019</td>
-									<td>Rp. 600,000</td>
-									<td>10</td>
-									<td>Al Quran</td>
-								</tr>
-								
-							</tbody>
-							<tfoot>
-								<tr>
-									<td colspan="2">Total</td>
-									<td colspan="3">Rp. 1,800,000</td>
-								</tr>
-							</tfoot>
-						</table>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-sm-12">
-					<h3 class="text-center mt-5">Rincian Donasi untuk Pembangunan Masjid</h3>
-					<div class="table-responsive">
-						<table class="table table-striped table-bordered">
-							<thead>
-								<th>No</th>
-								<th>Tanggal</th>
-								<th>Nama Masjid</th>
-								<th>Jumlah Donasi</th>
-								<th>Keterangan</th>
-							</thead>
-							<tbody>
-								<tr>
-									<td>1</td>
-									<td>4 June, 2019</td>
-									<td>Langgar Ar Rohmah</td>
-									<td>Rp. 1,000,000</td>
-									<td>Ngemplak Suren, Karangduren, Sawit, Boyolali. Donasi untuk pembangunan diserahkan kepada takmir masjid</td>
-								</tr>
-								<tr>
-									<td>2</td>
-									<td>4 June, 2019</td>
-									<td>Masjid Baitul Rohman</td>
-									<td>Rp. 705,000</td>
-									<td>Dukuh Purbayan Rt 2 / Rw 3, Desa Purbayan, Baki, Sukoharjo. Donasi untuk pembangunan diserahkan kepada takmir masjid</td>
-								</tr>
-								
-							</tbody>
-							<tfoot>
-								<tr>
-									<td colspan="3">Total</td>
-									<td colspan="2">Rp. 1,705,000</td>
-								</tr>
-							</tfoot>
-						</table>
-					</div>
-				</div>
-			</div>
-		</div>
 	</section>
-	--}}
 
 	<!-- Cara Donasi -->
 	<section id="cara-donasi" class="wow fadeInDown">
