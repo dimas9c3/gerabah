@@ -379,7 +379,7 @@
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<h2 class="section-heading text-uppercase">Laporan Realisasi Anggaran</h2>
-					<h3 class="section-subheading text-muted mb-3">Berikut adalah update laporan realisasi anggaran Gerabah 2019. Anda juga bisa mengundah laporan ini dalam bentuk File Excel dengan mengklik <a href="{{ route('front.download') }}">Link </a> ini.</h3>
+					<h3 class="section-subheading text-muted mb-3">Berikut adalah update laporan realisasi anggaran Gerabah 2021. Anda juga bisa mengundah laporan ini dalam bentuk File Excel dengan mengklik <a href="{{ route('front.download') }}">Link </a> ini.</h3>
 				</div>
 			</div>
 			<div class="row">
